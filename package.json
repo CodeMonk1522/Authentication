@@ -1,0 +1,28 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication System with Node.js This project demonstrates a complete authentication system built using Node.js, Express.js, React (with Vite), and MongoDB. It covers core authentication concepts, including user registration, secure password hashing, login, session management, and JWT-based token authentication, all while adhering to a structured and scalable architecture.",
+  "main": "backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^3.4.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
